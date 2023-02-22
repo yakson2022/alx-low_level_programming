@@ -7,7 +7,7 @@ int main(void)
 {
 	int n;
 	{
-		printf("%d is greater than%d\n");
+		printf("%d is greater than %d\n");
 	}
 	{
 		printf("%d is equal to %d\n");

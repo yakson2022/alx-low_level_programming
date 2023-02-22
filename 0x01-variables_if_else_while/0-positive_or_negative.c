@@ -13,7 +13,6 @@
 int main(void)
 {
 	int n;
-	int n = 4;
 
 	if (n > 0)
 	{
@@ -24,8 +23,8 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-
-	while (n < 0)
+	
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}

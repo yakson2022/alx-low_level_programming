@@ -10,21 +10,21 @@
 int main(void)
 {
 	int n;
-	int x;
-	(x = lastd);
+	int n, lastd;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastd = 10;
 
-	if (x > 5)
+	if (lastd > 5)
 	{
 	printf("%d lastd is greater than5\n", n, lastd);
 	}
-	else if (x == 0)
+	else if (lastd == 0)
 	{
 	printf("%d and is 0\n", n, lastd);
 	}
-	else if (x < 6, > 0)
+	else if (lastd < 6 & > 0)
 	{
 	printf("%d and is less than 6 and greater than 0\n", n, lastd);
 	}

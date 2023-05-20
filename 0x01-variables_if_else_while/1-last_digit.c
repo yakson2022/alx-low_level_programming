@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *main - This program will  print the last digit of number stored in a variable
- *return: 0(successful)
+ *return: 0 (successful)
  */
 int main(void)
 {

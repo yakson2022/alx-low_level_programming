@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - a program that prints the alphabet in lowercase
- * return: 0(success)
+ * main - a program that prints alphabets in lowercase
+ * return: 0 is success
  */
 int main(void)
 {
 	int n = 97;
-
-	while (n <= 122)
+	char a = 97;
 	{
-	putchar(n);
-	n++;
-	}
-	putchar("\n");
+		while (n <= 122)
+			putchar(n);
+		n++;
+		do
+			putchar("\n");
 	return (0);
 }
